@@ -3,13 +3,23 @@
 [![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
 [![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://www.microsoft.com/excel)
 [![DAX](https://img.shields.io/badge/DAX-Data_Analysis_Expressions-0078D4?style=for-the-badge)](https://learn.microsoft.com/dax/)
+[![PDF Report](https://img.shields.io/badge/PDF_Report-Download_Available-EC1C24?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](Data-Professional-Survey.pdf)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 > An end-to-end interactive **Power BI Business Intelligence Dashboard** analyzing survey responses from 630+ data professionals worldwide. The dashboard surfaces critical industry insights into salaries, favorite programming languages, work-life balance, job satisfaction, career transitions, and industry demographics.
 
 ---
 
+## 📸 Dashboard Preview
+
+![Data Professional Survey Dashboard Preview](dashboard_preview.png)
+
+📄 **[📥 Download Full PDF Report (Data-Professional-Survey.pdf)](Data-Professional-Survey.pdf)**
+
+---
+
 ## 📌 Table of Contents
+- [Dashboard Preview](#-dashboard-preview)
 - [Project Overview](#-project-overview)
 - [Key Insights & Highlights](#-key-insights--highlights)
 - [Dashboard Features & Architecture](#-dashboard-features--architecture)
@@ -119,6 +129,8 @@ The dataset contains raw survey responses collected from 630 individuals across 
 Data-Survey-Dashboard-PowerBI/
 │
 ├── Data-Professional-Survey.pbix       # Completed interactive Power BI Report file
+├── Data-Professional-Survey.pdf        # Exported High-Quality PDF Dashboard Report
+├── dashboard_preview.png               # High-Resolution Dashboard Preview Image
 ├── Power BI - Final Project.xlsx       # Cleaned & processed Excel survey dataset
 ├── .gitignore                          # Git ignore configuration
 └── README.md                           # Comprehensive project documentation
@@ -131,6 +143,7 @@ Data-Survey-Dashboard-PowerBI/
 ### Prerequisites
 - [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) (Free download)
 - [Microsoft Excel](https://www.microsoft.com/excel) (Optional, for dataset inspection)
+- [Adobe Acrobat Reader / PDF Viewer](https://get.adobe.com/reader/) (For viewing the PDF report)
 
 ### Steps to Run Locally:
 1. **Clone this repository:**
@@ -140,6 +153,7 @@ Data-Survey-Dashboard-PowerBI/
 2. **Open the project:**
    - Launch **Power BI Desktop**.
    - Open [`Data-Professional-Survey.pbix`](Data-Professional-Survey.pbix).
+   - Alternatively, view the exported report directly: [`Data-Professional-Survey.pdf`](Data-Professional-Survey.pdf).
 3. **Explore the Dashboard:**
    - Use the interactive slicers and cross-filtering across visuals to discover custom insights.
 
